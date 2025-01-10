@@ -194,7 +194,7 @@ public class inicio extends javax.swing.JFrame {
     private void loadIniData() {
           try {
               // Ruta del archivo .ini
-              String filePath = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\BatchTemplateQ1.ini";
+              String filePath = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\BatchTemplateQ1.ini";
 
               // Leer el archivo .ini
               BufferedReader reader = new BufferedReader(new FileReader(filePath));
@@ -249,7 +249,7 @@ public class inicio extends javax.swing.JFrame {
     private void saveToIniFile() {
         try {
             // Ruta del nuevo archivo .ini
-            String newFilePath = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\invertida.ini";
+            String newFilePath = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\invertida.ini";
 
             // Obtener el contenido del textarea
             String content = jTextArea1.getText();
@@ -288,7 +288,7 @@ public class inicio extends javax.swing.JFrame {
     private void cargarLastres() {
           try {
               // Ruta del archivo .ini
-              String filePath = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\kilos.ini";
+              String filePath = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\kilos.ini";
               String vueltas = jTextField1.getText();
               // Leer el archivo .ini
               BufferedReader reader = new BufferedReader(new FileReader(filePath));
@@ -324,7 +324,7 @@ public class inicio extends javax.swing.JFrame {
         try {
 //SERIE 1
             // Ruta del nuevo archivo .ini
-            String serie1 = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";
+            String serie1 = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";
 
             // Obtener el contenido del textarea
             String content = jTextArea1.getText();
@@ -350,7 +350,7 @@ public class inicio extends javax.swing.JFrame {
             // Cerrar el escritor
             writer.close();
 //SERIE 2
-            String serie2 = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";
+            String serie2 = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";
 
                     // Invertir el orden de las líneas
                     StringBuilder contenido2 = new StringBuilder();
@@ -372,7 +372,7 @@ public class inicio extends javax.swing.JFrame {
             // Cerrar el escritor
             writer2.close();
 //SERIE 3
-            String serie3 = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s3.ini";
+            String serie3 = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s3.ini";
 
                     // Invertir el orden de las líneas
                     StringBuilder contenido3 = new StringBuilder();
@@ -404,7 +404,7 @@ public class inicio extends javax.swing.JFrame {
 
 
                 // Ruta al archivo .ini
-                String rutaArchivoIni = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";;
+                String rutaArchivoIni = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";;
                 
                 // Crear un lector de archivos
                 BufferedReader br = new BufferedReader(new FileReader(rutaArchivoIni));
@@ -434,7 +434,7 @@ public class inicio extends javax.swing.JFrame {
 
 
                 // Ruta al archivo .ini
-                String rutaArchivoIni = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";;
+                String rutaArchivoIni = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";;
                 
                 // Crear un lector de archivos
                 BufferedReader br = new BufferedReader(new FileReader(rutaArchivoIni));
@@ -464,7 +464,7 @@ public class inicio extends javax.swing.JFrame {
 
 
                 // Ruta al archivo .ini
-                String rutaArchivoIni = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s3.ini";;
+                String rutaArchivoIni = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s3.ini";;
                 
                 // Crear un lector de archivos
                 BufferedReader br = new BufferedReader(new FileReader(rutaArchivoIni));
@@ -504,7 +504,7 @@ public class inicio extends javax.swing.JFrame {
         try {
     //SERIE 1
             // Ruta del nuevo archivo .ini
-            String serie1 = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";
+            String serie1 = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";
 
             // Obtener el contenido del textarea
             String content = jTextArea1.getText();
@@ -531,7 +531,7 @@ public class inicio extends javax.swing.JFrame {
             // Cerrar el escritor
             writer.close();
     //SERIE 2
-            String serie2 = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";
+            String serie2 = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";
 
                     // Invertir el orden de las líneas
                     StringBuilder contenido2 = new StringBuilder();
@@ -562,7 +562,7 @@ public class inicio extends javax.swing.JFrame {
 
 
                 // Ruta al archivo .ini
-                String rutaArchivoIni = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";;
+                String rutaArchivoIni = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s1.ini";;
                 
                 // Crear un lector de archivos
                 BufferedReader br = new BufferedReader(new FileReader(rutaArchivoIni));
@@ -592,7 +592,7 @@ public class inicio extends javax.swing.JFrame {
 
 
                 // Ruta al archivo .ini
-                String rutaArchivoIni = "X:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";;
+                String rutaArchivoIni = "C:\\[CADPO 2024]\\UserData\\LOG\\Results\\s2.ini";;
                 
                 // Crear un lector de archivos
                 BufferedReader br = new BufferedReader(new FileReader(rutaArchivoIni));
